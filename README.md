@@ -96,3 +96,4 @@ The spatial boundaries of this selected allosteric site involve specific regulat
 * MOE - Molecular Operating Environment (Structure Preparation, Protonate 3D, Energy Minimization)
 * SAVES Server 
 * PyMol
+* PAULING AI (Autochem agent v1)
