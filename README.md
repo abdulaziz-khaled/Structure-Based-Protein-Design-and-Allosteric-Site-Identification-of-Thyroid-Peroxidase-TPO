@@ -97,3 +97,17 @@ The spatial boundaries of this selected allosteric site involve specific regulat
 * SAVES Server 
 * PyMol
 * PAULING AI (Autochem agent v1)
+
+## 💬 Contact & Discussion
+If you have questions, suggestions, or would like to discuss improvements to this workflow, feel free to reach out.
+I am always open to collaboration, feedback, and contributions to enhance this pipeline.
+
+•	**Project Author**: Abdulaziz Khaled
+
+•	**GitHub**: https://github.com/abdulaziz-khaled￼
+
+•	**Email**: abdelaziz.khaled.eg@gmail.com
+	
+•	**LinkedIn**: https://www.linkedin.com/in/abdul-aziz-khaled
+
+• **Telegram**: https://t.me/zizo_elamir
