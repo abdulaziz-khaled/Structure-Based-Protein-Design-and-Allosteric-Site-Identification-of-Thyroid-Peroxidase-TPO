@@ -77,7 +77,8 @@ The following command-line script was executed within PyMOL to restore the multi
 alter (resi 5-305), chain='A'
 alter (resi 306-606), chain='B'
 alter (resi 607-827), chain='C'
-sort```
+sort
+```
 
 `tpo prep PyMol.pdb`
 
