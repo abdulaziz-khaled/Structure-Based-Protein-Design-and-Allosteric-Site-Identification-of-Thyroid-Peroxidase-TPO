@@ -62,12 +62,9 @@ To ensure the reliability of the refined TPO model, multiple validation servers 
 ![Image](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-03-04%20131302.png)
 
 
-### 6. Binding Site Identification (SiteMap)
-* **Tool:** Schrödinger (SiteMap)
-* **Action:** An extensive search for potential binding pockets was conducted to identify an allosteric site. 
-* **Findings:** 10 potential pockets were identified.
-
-![sitmap](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-02-27%20211303.png)
+### 6. Targeted Structural Refinement and Visualization
+Following the initial structural validation, localized geometric deviations—identified as unstable regions in the ERRAT plot—required further optimization. Using the Molecular Operating Environment (MOE) software, these specific problematic loops and individual amino acid residues were manually selected for targeted energy minimization. By applying the AMBER10:EHT force field exclusively to these selected regions while keeping the rest of the protein fixed, steric clashes were successfully resolved, and local geometries were optimized without disrupting the overall stable backbone fold.
+Subsequently, the refined three-dimensional model was exported to PyMOL for proper structural formatting and visual inspection. Since the prior preparation and minimization procedures had temporarily merged the multi-chain complex into a single continuous sequence, PyMOL was utilized to accurately reassign and segregate the protein into its constituent chains (e.g., Chain A, B, and C) based on their specific residue ranges. Finally, each defined chain was distinctly color-coded to enhance structural visualization and confirm the integrity of the complex. This correctly formatted and validated structure was established as the final TPO model, serving as the sole and definitive structural basis for all subsequent downstream computational applications, including allosteric site identification and molecular docking studies.
 
 
 ## 🛠️ Tools Used
