@@ -72,6 +72,21 @@ To ensure the reliability of the refined TPO model, multiple validation servers 
 
 `tpo prep PyMol.pdb`
 
+### 7. Allosteric Site Identification
+
+Following the finalization of the 3D structure, the identification of a prospective allosteric binding pocket was conducted using the **Autochem agent v1** on the **PAULING.AI** platform. The objective was to locate a well-defined cavity distinct from the primary orthosteric active site, specifically targeting regions capable of allosteric communication and conformational control.
+
+The automated site-finding algorithm evaluated potential binding pockets across the fully prepared TPO complex. **Site ID 1252** was selected as the optimal primary allosteric target based on its strategic location at the domain-domain interface between **Chain A** and **Chain B**. Structural analysis indicated that this pocket exhibits a highly favorable druggability profile for small-molecule modulation, characterized by:
+* **Pocket Score:** 36.56
+* **Probability Score:** 0.96
+
+#### Selected Allosteric Site Details (Residues)
+The spatial boundaries of this selected allosteric site involve specific regulatory structural elements from both interacting chains. The key residues forming the predicted cavity include:
+
+- **Chain A:** 56, 60, 213, 217, 220, 221, 224, 225, 226, 228, 270, 271, 272.
+- **Chain B:** 378, 381, 382, 384, 468, 473, 476, 479, 480, 482, 483, 505, 542, 546, 547, 557, 560, 561, 564.
+
+> **Note on Downstream Application:** > The identification of this highly probable interfacial pocket provided a precisely defined target matrix. This strategically selected site was subsequently utilized for the molecular docking pipeline to screen and identify potential partial-occupancy **Negative Allosteric Modulators (NAMs)** capable of interfering with signal propagation and destabilizing the active conformation of the TPO structure.
 
 ## 🛠️ Tools Used
 * SignalP
@@ -81,8 +96,3 @@ To ensure the reliability of the refined TPO model, multiple validation servers 
 * MOE - Molecular Operating Environment (Structure Preparation, Protonate 3D, Energy Minimization)
 * SAVES Server 
 * PyMol
-
-## 🚀 Future Work
-* Selection Allosteric Site.
-* Perform virtual screening (Molecular Docking) NAMs the identified allosteric pocket.
-* Conduct Molecular Dynamics (MD) simulations to validate the stability of the protein-ligand complexes.
