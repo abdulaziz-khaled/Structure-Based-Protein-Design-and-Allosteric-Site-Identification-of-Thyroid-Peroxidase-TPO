@@ -74,7 +74,7 @@ To ensure the reliability of the refined TPO model, multiple validation servers 
 
 ### 7. Allosteric Site Identification
 
-Following the finalization of the 3D structure, the identification of a prospective allosteric binding pocket was conducted using the **Autochem agent v1** on the **PAULING.AI** platform. The objective was to locate a well-defined cavity distinct from the primary orthosteric active site, specifically targeting regions capable of allosteric communication and conformational control.
+Following the finalization of the 3D structure, the identification of a prospective allosteric binding pocket was conducted using the **Autochem agent v1** on the [**PAULING.AI**](https://www.pauling.ai/) platform. The objective was to locate a well-defined cavity distinct from the primary orthosteric active site, specifically targeting regions capable of allosteric communication and conformational control.
 
 The automated site-finding algorithm evaluated potential binding pockets across the fully prepared TPO complex. **Site ID 1252** was selected as the optimal primary allosteric target based on its strategic location at the domain-domain interface between **Chain A** and **Chain B**. Structural analysis indicated that this pocket exhibits a highly favorable druggability profile for small-molecule modulation, characterized by:
 * **Pocket Score:** 36.56
