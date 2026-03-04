@@ -1,4 +1,4 @@
-# Structural Modeling and Allosteric Site Identification of Thyroid Peroxidase (TPO) 🧬
+# Protein Desgin and Allosteric Site Identification of Thyroid Peroxidase (TPO) 🧬
 ![TPO Protein Visualization](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/protein_dark_highres.png)
 
 ## 📌 Project Overview
