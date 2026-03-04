@@ -40,7 +40,7 @@ The workflow of this project was executed using a combination of bioinformatics 
 ![Insert Image of your AlphaFold 3D model here](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/120649A081B0F2E6.png)
 
 
-### 4. Protein Preparation & Refinement
+### 4. Protein Preparation & Energy Minimization
 **Tools:**
 * **Schrödinger Suite** (Protein Preparation Wizard)
 * **MOE - Molecular Operating Environment** (Structure Preparation & Protonate 3D)
