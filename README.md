@@ -74,7 +74,7 @@ To ensure the reliability of the refined TPO model, multiple validation servers 
 ![image](https://github.com/abdulaziz-khaled/Structure-Based-Protein-Design-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO/blob/main/IMG_4317.png)
 ![image](https://github.com/abdulaziz-khaled/Structure-Based-Protein-Design-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO/blob/main/IMG_4316.jpeg)
 
-* Subsequently, the refined three-dimensional model was exported to PyMOL for proper structural formatting and visual inspection. Since the prior preparation and minimization procedures had temporarily merged the multi-chain complex into a single continuous sequence, PyMOL was utilized to accurately reassign and segregate the protein into its constituent chains (e.g., Chain A, B, and C) based on their specific residue ranges. Finally, each defined chain was distinctly color-coded to enhance structural visualization and confirm the integrity of the complex.
+* Subsequently, the refined three-dimensional model was exported to PyMOL for proper structural formatting and visual inspection. Since the prior preparation and minimization procedures had temporarily merged the multi-chain complex into a single continuous sequence, PyMOL was utilized to accurately reassign and segregate the protein into its constituent chains (e.g., Chain A, B, and C) based on their specific residue ranges. Finally, each defined chain was distinctly color-coded to enhance structural visualization and confirm the integrity of the complex. This correctly formatted and validated structure was established as the final TPO model, serving as the sole and definitive structural basis for all subsequent downstream computational applications, including allosteric site identification and molecular docking studies.
   
    * The following command-line script was executed within PyMOL to restore the multimeric structural integrity:
 
@@ -91,7 +91,7 @@ show cartoon, all
 # 2. Color the chains
 color red, chain A
 color white, chain B
-color black, chain C
+color blue, chain C
 
 # 3. Enhance the structure's appearance for a professional and fancy look
 set cartoon_fancy_helices, 1
